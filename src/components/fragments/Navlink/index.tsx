@@ -1,31 +1,32 @@
+"use client";
 import ButtonLink from "@/components/elements/Button/link";
-import { IconBrandGithub, IconBrandInstagram, IconBrandLinkedin } from "@tabler/icons-react";
+import { IconMessage2, IconPlugConnected, IconUserCode } from "@tabler/icons-react";
 
 const NavLink = () => {
 	return (
-		<div className="flex items-center justify-center gap-5">
-			<ButtonLink route="https://instagram.com">
-				<IconBrandInstagram
+		<div className="hidden md:flex items-center justify-center gap-5">
+			<ButtonLink route="/#about">
+				<IconUserCode
 					size={18}
 					stroke={2.5}
 				/>{" "}
-				Instagram
+				About Me
 			</ButtonLink>
 
-			<ButtonLink route={"https://facebook.com"}>
-				<IconBrandLinkedin
+			<ButtonLink route={"/#projects"}>
+				<IconMessage2
 					size={18}
 					stroke={2.5}
 				/>{" "}
-				Linkedin
+				Projects
 			</ButtonLink>
 
-			<ButtonLink route={"https://facebook.com"}>
-				<IconBrandGithub
+			<ButtonLink route={"/#footer"}>
+				<IconPlugConnected
 					size={18}
 					stroke={2.5}
 				/>{" "}
-				Github
+				Contact
 			</ButtonLink>
 		</div>
 	);

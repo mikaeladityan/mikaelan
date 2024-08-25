@@ -2,8 +2,6 @@ import Footer from "@/components/footer";
 import Header from "@/components/Header";
 import AboutSection from "@/components/Section/About";
 import Project from "@/components/Section/Projects";
-import { Boxes } from "@/components/ui/background-boxes";
-import { cn } from "@/lib/utils";
 
 export default function Home() {
 	return (

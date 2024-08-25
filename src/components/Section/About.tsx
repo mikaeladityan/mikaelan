@@ -13,12 +13,12 @@ const AboutSection = () => {
 			className="pb-20 relative overflow-x-hidden"
 		>
 			<h2 className="sr-only">About</h2>
-			<div className="flex items-center justify-center gap-5 uppercase text-9xl font-black relative left-36">
+			<div className="flex items-center justify-center gap-5 uppercase text-5xl md:text-9xl font-black relative left-36">
 				{titles.map((t, index) => (
 					<p key={index}>{t}</p>
 				))}
 			</div>
-			<div className="w-11/12 mx-auto grid grid-cols-2 items-center justify-center gap-3 group">
+			<div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-3 group">
 				<Image
 					src={"/images/img_01.jpg"}
 					alt="First Photo of Mikael Aditya Nugroho"

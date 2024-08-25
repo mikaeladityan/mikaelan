@@ -12,7 +12,7 @@ const Navbar = () => {
 				<h1 className={`${H1.className} text-2xl flex items-center justify-start`}>
 					M
 					<IconTriangle
-						size={20}
+						size={23}
 						stroke={4.5}
 					/>
 					N

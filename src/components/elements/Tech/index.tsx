@@ -1,20 +1,20 @@
 "use client";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
-import { IconBrandTailwind } from "@tabler/icons-react";
+
 import React from "react";
 
 const people = [
 	{
 		id: 1,
-		name: "John Doe",
-		designation: "Software Engineer",
-		image: "/images/img_01.jpg",
+		name: "Javascript",
+		designation: "Frontend",
+		image: "/icons/js.png",
 	},
 	{
 		id: 2,
-		name: "John Doe",
-		designation: "Software Engineer",
-		image: "/images/img_01.jpg",
+		name: "Frontend",
+		designation: "Bootstrap",
+		image: "/icons/bootstrap.png",
 	},
 ];
 
