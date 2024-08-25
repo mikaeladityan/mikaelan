@@ -1,10 +1,9 @@
-import Button from "@/components/elements/Button";
 import ButtonLink from "@/components/elements/Button/link";
-import { IconBrandGithub, IconBrandInstagram, IconBrandLinkedin, IconBrandWhatsapp } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandInstagram, IconBrandLinkedin } from "@tabler/icons-react";
 
 const NavLink = () => {
 	return (
-		<div className="flex items-center justify-end gap-5">
+		<div className="flex items-center justify-center gap-5">
 			<ButtonLink route="https://instagram.com">
 				<IconBrandInstagram
 					size={18}
@@ -28,14 +27,6 @@ const NavLink = () => {
 				/>{" "}
 				Github
 			</ButtonLink>
-
-			<Button route="https://wa.me/6285608580054">
-				<IconBrandWhatsapp
-					size={18}
-					stroke={2.3}
-				/>{" "}
-				Contact Me
-			</Button>
 		</div>
 	);
 };

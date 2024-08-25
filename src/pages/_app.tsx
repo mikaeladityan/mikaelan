@@ -1,3 +1,4 @@
+"use client";
 import AppLayouts from "@/components/layouts/App-layouts";
 import Navbar from "@/components/Navbar";
 import "@/styles/globals.css";
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<title>Mikael Aditya Nugroho</title>
 			</Head>
 			<Navbar />
+
 			<Component {...pageProps} />
 		</AppLayouts>
 	);
